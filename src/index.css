@@ -1,0 +1,58 @@
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    padding: 15vh;
+    background-image: url('https://cdn.pixabay.com/photo/2015/03/26/09/54/drops-690570_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1, h2, h3{
+    text-align: center;
+}
+div{
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+article{
+    width: 32vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:lightgray;
+    opacity: 0.8;
+    margin: 0;
+    border-radius: 1rem;
+    gap: 0.5rem ;
+}
+section li, ul{
+    text-align: center;
+    list-style: none;
+    padding: 0%;
+}
+button{
+    cursor:pointer;
+    font-family: cursive;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid gray;
+    color: rgb(82, 81, 81);
+    background-color: lightgray;
+    transition: transform 700ms ease;
+}
+button:hover{
+    transform:scale(1.2);
+    transition: transform 700ms ease;
+    background-color: white;
+    
+}
+.weather_data{
+    padding-left: 3rem;
+    font-style:italic;
+    font-size: 3vh;
+}
+img{
+    width: 12vw;
+}
