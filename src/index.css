@@ -7,6 +7,9 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+h1{
+    font-size: 2rem;
+}
 h1, h2, h3{
     text-align: center;
 }
@@ -46,6 +49,7 @@ button:hover{
     transform:scale(1.2);
     transition: transform 700ms ease;
     background-color: white;
+    color: black;
     
 }
 .weather_data{
